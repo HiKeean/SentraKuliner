@@ -1,0 +1,144 @@
+.header-area {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.menu-center {
+    display:flex ;
+    justify-content: center;
+    gap: 0px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+.menu-center li {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.menu-center a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 200px; 
+}
+
+.header-cart {
+    position: relative;
+}
+
+.cart-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 300px;
+    min-height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    z-index: 10;
+}
+
+
+.header-cart:hover .cart-tooltip {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification {
+    position: relative;
+}
+
+.notif-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    transform: translateX(-60%); 
+    width: 300px;
+    min-height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    z-index: 10;
+}
+
+.notification:hover .notif-tooltip {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    position: relative;
+}
+
+.user:hover .user-tooltip {
+    display: block;
+}
+
+.user-tooltip {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 150px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    z-index: 10; 
+    text-align: left; 
+    font-size: 14px; 
+}
+
+.user-tooltip li {
+    padding: 8px 12px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.user-tooltip li:hover {
+    background-color: #f0f0f0; 
+}
+
+.user-tooltip li a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    width: 100%; 
+    font-size: inherit;
+}
+.header-action .same-style-2.same-style-2-font-inc ul li a{
+    font-size: 14px;
+}
+
+.tooltip-cart-image {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tooltip-message {
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.4;
+}

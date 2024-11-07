@@ -1,0 +1,23 @@
+.select2-container--default .select2-selection--single {
+    height: 50px; 
+    padding: 5px 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: normal; 
+    text-align: center; 
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%; 
+    right: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent black transparent; 
+}
